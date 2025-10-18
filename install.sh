@@ -132,7 +132,7 @@ chmod +x /usr/local/share/zsh/site-functions/_sap
 
 cat << "EOF"
 
-     *    .  ⭐️   .      .    *    .     .  *
+  .  *    .  ⭐️   .      .    *    .     .  *
    .   ° .  🌎   .  ·  °   .  ✨  .   *   .  
   .  *  SAP  ·  °    .  · .    .  *  .  ·   *
     .   ·   *  .    . 🌙  *   .  ✨  .   .   
