@@ -51,6 +51,7 @@ SCRIPT_PATH="$SCRIPTS_DIR/$COMMAND"
 
 if [ -f "$SCRIPT_PATH" ] && [ -x "$SCRIPT_PATH" ]; then
     cd "$WORKING_DIR"
+    printf "\e[90m%s\e[0m\n" "cd \"$WORKING_DIR\""
     exec "$SCRIPT_PATH" "$@"
 else
     echo "Error: Command '$COMMAND' not found"
